@@ -44,7 +44,7 @@ const Projects = () => {
             <img src={cryptoImg} id="carimg" alt="website"></img>
           </div>
           <div className="projectData">
-            <h2>crypto app</h2>
+            <h2>Crypto App</h2>
             <p>
               Coindom is a crypto app that allows users to search for
               information about various cryptocurrencies in real-time.

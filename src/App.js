@@ -3,6 +3,7 @@ import Nav from "./Nav";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
@@ -11,6 +12,12 @@ function App() {
       <Home />
       <About />
       <Projects />
+
+      {/* <Routes>
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes> */}
     </div>
   );
 }
