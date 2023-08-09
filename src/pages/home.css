@@ -1,11 +1,12 @@
 .home {
     /* background-color: reb(249, 249, 249); */
     background-color: rgba(249, 249, 249);
-    height: 100vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
+
 }
 
 .profileData {
@@ -147,6 +148,7 @@
         justify-content: center;
         align-items: center;
         /* padding-bottom: 5%; */
+        padding-top: 10%;
     }
 
 
@@ -158,7 +160,7 @@
 
     .profiletext {
         padding: 0;
-        padding-top: 20%;
+        padding-top: 0%;
     }
 
     .profiletext h1 {
@@ -213,11 +215,12 @@
     .profile img {
         border-radius: 5%;
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
-        border: 3px solid #2d2e32;
+        border: 3px solid #27cb19;
         background-position: 50%;
         height: 20rem;
         background-position: 50%
     }
+
 
 
 }

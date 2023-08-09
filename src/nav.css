@@ -23,11 +23,7 @@
 
 }
 
-.logo {
-    color: #2d2e32;
-    cursor: pointer;
-    padding: 20px;
-}
+
 
 .nav {
     display: flex;
@@ -52,12 +48,21 @@
     display: none;
 }
 
+.navClose {
+    display: none;
+}
+
 @media (max-width: 767px) {
 
 
     .nav {
         padding-left: 0;
         display: none;
+    }
+
+    .mobileMenu .triger {
+        padding: 20px;
+        z-index: 100;
     }
 
     .navMOB {
@@ -80,9 +85,10 @@
     .Header2 {
         margin: 0;
         height: 100vh;
-        overflow: hidden;
-        /* position: fixed; */
+
     }
+
+
 
     .nav2 {
         display: flex;
