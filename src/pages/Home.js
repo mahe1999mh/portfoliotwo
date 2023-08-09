@@ -16,7 +16,7 @@ import profile from "../assets/mahendra.png";
 
 const Home = () => {
   return (
-    <div>
+    <div id="home">
       <div className="home">
         <div className="profileData">
           <div className="profiletext">

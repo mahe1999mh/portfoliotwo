@@ -8,7 +8,7 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Projects = () => {
   return (
-    <div className="Projects">
+    <div className="Projects" id="projects">
       <div className="portfolioHeader">
         <p>
           <b>PORTFOLIO</b>
