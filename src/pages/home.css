@@ -40,7 +40,7 @@
 
 .profilePic {
     width: 50%;
-    padding-bottom: 20%;
+    /* padding-bottom: 20%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +144,7 @@
         background-color: rgba(249, 249, 249);
         height: 100vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         /* padding-bottom: 5%; */
@@ -185,7 +185,7 @@
     }
 
     .profilePic {
-        padding-top: 10%;
+        /* padding-top: 10%; */
     }
 
     .profiletext h1 {
