@@ -6,10 +6,13 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
+  let menu = () => {
+    setOpen(!open);
+  };
   return (
     <>
       <div className={open ? "Header2" : "Header"}>
-        <h3 className="logo">{!open ? "Stefan.dev" : ""}</h3>
+        <h3 className="logo">{!open ? "MH" : ""}</h3>
 
         {/* <ul className="nav">
         
@@ -38,12 +41,7 @@ const Nav = () => {
           </li>
         </ul>
         <ul className="mobileMenu">
-          <li
-            className="triger"
-            onClick={() => {
-              setOpen(!open);
-            }}
-          >
+          <li className="triger" onClick={menu}>
             {!open ? (
               <FontAwesomeIcon icon={faBars} size="2xl" />
             ) : (
@@ -52,16 +50,16 @@ const Nav = () => {
           </li>
         </ul>
         <ul className={open ? "nav2" : "navClose"}>
-          <li>
+          <li onClick={menu}>
             <a href="#home">Home</a>
           </li>
-          <li>
+          <li onClick={menu}>
             <a href="#about">About</a>
           </li>
-          <li>
+          <li onClick={menu}>
             <a href="#projects">Projects</a>
           </li>
-          <li>
+          <li onClick={menu}>
             <a href="#contact">Contact</a>
           </li>
         </ul>

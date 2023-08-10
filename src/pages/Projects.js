@@ -28,7 +28,7 @@ const Projects = () => {
               interface for searching, comparing, and reserving cars.
             </p>
             <div className="codeLink">
-              <a href="">
+              <a href="https://github.com/mahe1999mh" target="_blank">
                 Code <FontAwesomeIcon icon={faGithub} />
               </a>
               <a href="https://car-rental-ten.vercel.app/" target="_blank">
@@ -50,7 +50,7 @@ const Projects = () => {
               information about various cryptocurrencies in real-time.
             </p>
             <div className="codeLink">
-              <a href="">
+              <a href="https://github.com/mahe1999mh" target="_blank">
                 Code <FontAwesomeIcon icon={faGithub} />
               </a>
               <a

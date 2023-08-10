@@ -32,17 +32,20 @@ const Home = () => {
             <p>
               <h4>
                 Hi, I'm Mahendra Reddy. A passionate Front-end React Developer
-                based in India, Bangalore. 📍
+                based in Bangalore, India 📍
               </h4>
             </p>
             <div className="brandsIcons">
               <h2>
-                <a href="./linked">
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/mahendra-reddy-265276170/"
+                >
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
               </h2>
               <h2>
-                <a href="./linked">
+                <a href="https://github.com/mahe1999mh" target="_blank">
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
               </h2>

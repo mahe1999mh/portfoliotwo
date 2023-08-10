@@ -1,0 +1,91 @@
+.contactPage {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 250, 250);
+}
+
+.Contact {
+    width: 70%;
+    /* padding: 0%, 20%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    gap: 20px;
+}
+
+.Contact h3 {
+    width: 60%;
+    display: flex;
+    text-align: start;
+    color: #010101;
+}
+
+
+.Contact h2 {
+    width: 60%;
+    display: flex;
+    text-align: start;
+}
+
+.contactData {
+    display: flex;
+    gap: 20px;
+    width: 60%;
+}
+
+.location {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mail {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.icons {
+    width: 70px;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 767px) {
+    .contactPage {
+        width: 100%;
+    }
+
+    .Contact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* padding-top: 10%; */
+    }
+
+    .Contact h2 {
+        width: 70%;
+    }
+
+    .Contact h3 {
+        width: 70%;
+    }
+
+    .Contact .contactData {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+}
