@@ -1,18 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import "./nav.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 // import { Link } from "react-router-dom";
 
-const Nav = () => {
-  const [open, setOpen] = useState(false);
+const Nav = ({open,setOpen}) => {
   let menu = () => {
     setOpen(!open);
   };
   return (
     <>
       <div className={open ? "Header2" : "Header"}>
-        <h3 className="logo">{!open ? "MH" : ""}</h3>
+        <h3 className="logo">{!open ? "Mahendra Reddy" : ""}</h3>
 
         {/* <ul className="nav">
         
@@ -26,6 +25,7 @@ const Nav = () => {
             <Link to="/projects">Projects</Link>
           </li>
         </ul> */}
+        
         <ul className="nav">
           <li>
             <a href="#home">Home</a>
