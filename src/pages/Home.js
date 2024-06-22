@@ -1,5 +1,7 @@
-import React from "react";
+import React, { lazy } from "react";
 import "./home.css";
+import nextjs from "../../src/assets/next-js.svg"
+import reactNative from "../../src/assets/reactNative.svg"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,7 +12,7 @@ import {
   faCss3Alt,
   faReact,
   faNodeJs,
-  faNode,
+  faNode, 
 } from "@fortawesome/free-brands-svg-icons";
 import profile from "../assets/mahendra.png";
 
@@ -97,6 +99,12 @@ const Home = () => {
                     size="2xl"
                     style={{ color: "#36820d" }}
                   />
+                </li>
+                <li>
+                  <img style={{width:'40px'}} loading={lazy} src={nextjs}/>
+                </li>
+                <li>
+                  <img style={{width:'40px'}} loading={lazy} src={reactNative}/>
                 </li>
               </ul>
             </div>

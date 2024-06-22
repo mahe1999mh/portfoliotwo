@@ -1,7 +1,7 @@
 .home {
     /* background-color: reb(249, 249, 249); */
     background-color: rgba(249, 249, 249);
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10%;
+    padding-top: 2%;
     padding-right: 25%;
 
 }
@@ -124,9 +124,9 @@
 
 .techStackIcons ul li {
     align-items: center;
-    background-color: #fff;
+    background-color: #ffffff;
     border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .09);
     cursor: pointer;
     display: flex;
     height: 3.5rem;
