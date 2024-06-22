@@ -23,7 +23,7 @@ const Home = () => {
         <div className="profileData">
           <div className="profiletext">
             <h1>
-              Front-End React Developer
+              Full-Stack Developer
               <img
                 src="https://stefantopalovicdev.vercel.app/static/media/waving.1bae5fcfb51082b5c2b4.png"
                 alt="hi"
@@ -33,7 +33,7 @@ const Home = () => {
             </h1>
             <p>
               <h4>
-                Hi, I'm Mahendra Reddy. A passionate Front-end React Developer
+                Hi, I'm Mahendra Reddy. A passionate Full-Stack React Developer
                 based in Bangalore, India 📍
               </h4>
             </p>
