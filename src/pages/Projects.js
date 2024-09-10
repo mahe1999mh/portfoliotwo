@@ -1,19 +1,21 @@
 import React from "react";
 import "./Projects.css";
-import carImg from "../assets/car-rental-full11.png";
 import cryptoImg from "../assets/coindom-full11.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import aiResumeBuilderImg from "../assets/Ai-Resume.png"
+
 
 const projectData = [
   {
-    title: "CAR RENTAL 🚗",
+    title: "AI Resume Builder",
     description:
-      "A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.",
+      "An AI-powered tool that helps users create professional, ATS-friendly resumes in minutes, leveraging Google Gemini AI for personalized recommendations.",
     githubLink: "https://github.com/mahe1999mh",
-    liveDemoLink: "https://car-rental-ten.vercel.app/",
-    image: carImg,
+    liveDemoLink: "https://ai-resume-builder-nu.vercel.app/",
+    image: aiResumeBuilderImg, 
+
   },
   {
     title: "Crypto App",
