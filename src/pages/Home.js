@@ -1,7 +1,7 @@
 import React, { lazy } from "react";
 import "./home.css";
-import nextjs from "../../src/assets/next-js.svg"
-import reactNative from "../../src/assets/reactNative.svg"
+import nextjs from "../../src/assets/next-js.svg";
+import reactNative from "../../src/assets/reactNative.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -12,7 +12,7 @@ import {
   faCss3Alt,
   faReact,
   faNodeJs,
-  faNode, 
+  faNode,
 } from "@fortawesome/free-brands-svg-icons";
 import profile from "../assets/mahendra.png";
 
@@ -24,12 +24,12 @@ const Home = () => {
           <div className="profiletext">
             <h1>
               Full-Stack Developer
-              <img
+              {/* <img
                 src="https://stefantopalovicdev.vercel.app/static/media/waving.1bae5fcfb51082b5c2b4.png"
                 alt="hi"
                 width="50px"
                 height="50px"
-              />
+              /> */}
             </h1>
             <p>
               <h4>
@@ -101,10 +101,14 @@ const Home = () => {
                   />
                 </li>
                 <li>
-                  <img style={{width:'40px'}} loading={lazy} src={nextjs}/>
+                  <img style={{ width: "40px" }} loading={lazy} src={nextjs} />
                 </li>
                 <li>
-                  <img style={{width:'40px'}} loading={lazy} src={reactNative}/>
+                  <img
+                    style={{ width: "40px" }}
+                    loading={lazy}
+                    src={reactNative}
+                  />
                 </li>
               </ul>
             </div>

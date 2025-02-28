@@ -4,26 +4,25 @@ import cryptoImg from "../assets/coindom-full11.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-import aiResumeBuilderImg from "../assets/Ai-Resume.png"
-
+import aiResumeBuilderImg from "../assets/Ai-Resume.png";
+import CodeEditor from "../assets/vsCodeImg.png";
 
 const projectData = [
+  {
+    title: "Code Editor",
+    description:
+      "A web-based code editor built with React and Monaco Editor, providing a seamless coding experience with syntax highlighting, autocompletion, and real-time execution.",
+    githubLink: "https://github.com/mahe1999mh/CodeEditor",
+    liveDemoLink: "https://vs-code-editor.vercel.app/",
+    image: CodeEditor,
+  },
   {
     title: "AI Resume Builder",
     description:
       "An AI-powered tool that helps users create professional, ATS-friendly resumes in minutes, leveraging Google Gemini AI for personalized recommendations.",
     githubLink: "https://github.com/mahe1999mh",
-    liveDemoLink: "https://ai-resume-builder-nu.vercel.app/",
-    image: aiResumeBuilderImg, 
-
-  },
-  {
-    title: "Crypto App",
-    description:
-      "Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time.",
-    githubLink: "https://github.com/mahe1999mh",
-    liveDemoLink: "https://coindom-crypto-search.vercel.app/",
-    image: cryptoImg,
+    liveDemoLink: "https://atsoptimize.vercel.app/",
+    image: aiResumeBuilderImg,
   },
 ];
 

@@ -14,15 +14,17 @@ function App() {
 
   return (
     <div className="App">
-      <Nav setOpen={setOpen} open={open}/>
-    {!open && (
-      <> <Home />
-      <About />
-      <Projects />
-      <Contact />
-      <Footer />
-      </>
-    )} 
+      <Nav setOpen={setOpen} open={open} />
+      {!open && (
+        <>
+          {" "}
+          <Home />
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
+        </>
+      )}
 
       {/* <Routes>
         <Route path="/home" element={<Home />} />

@@ -5,12 +5,12 @@ const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <div className="left">
+        {/* <div className="left">
           <img
             src="https://stefantopalovicdev.vercel.app/static/media/about-img.62b47e7f183d4b4e9feb.webp"
             alt="img"
           />
-        </div>
+        </div> */}
         <div className="rigth">
           <h3>
             <b>ABOUT ME</b>
